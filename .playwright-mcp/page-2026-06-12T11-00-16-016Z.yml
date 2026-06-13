@@ -1,0 +1,539 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - img [ref=e3]
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Beijing" [level=1] [ref=e7]
+        - heading "Beijing is the only city for search query \"Beijing\" on Nomads.com" [level=3] [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10] [cursor=pointer]:
+          - img "Explore the world" [ref=e11]
+          - img
+        - paragraph [ref=e12]:
+          - textbox "Type your email..." [ref=e13]
+        - generic [ref=e14] [cursor=pointer]: Join Nomads.com →
+        - paragraph [ref=e15]: If you already have an account, we'll log you in
+    - navigation [ref=e17]:
+      - link "Nomads.com" [ref=e19] [cursor=pointer]:
+        - /url: https://nomads.com/
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - img [ref=e23]
+      - generic [ref=e29]: Filters
+      - textbox "Search or filter..." [ref=e31]
+      - link "Join Nomads.com →" [ref=e32] [cursor=pointer]:
+        - /url: "#"
+      - combobox [ref=e34] [cursor=pointer]:
+        - option "Nomad Score"
+        - option "Nomad Score" [selected]
+        - option "Solomad score"
+        - option "Family score"
+        - option "Quality of life score"
+        - option "Your Score"
+        - option "Cost for nomad"
+        - option "Internet speed"
+        - option "Fun"
+        - option "Safety"
+        - option "Temperature (now)"
+        - option "Temperature (feels like, now)"
+        - option "Temperature (annual avg)"
+        - option "Air quality (now)"
+        - option "Air quality (annual avg)"
+        - option "AC prevalence %"
+        - option "Humidity (now)"
+        - option "Members rating"
+        - option "Nomads there now"
+        - option "Nomads been"
+        - option "Men nomads now"
+        - option "Women nomads now"
+        - option "Nomads % of population"
+        - option "Nomads % of tourists"
+        - option "Number of reviews"
+        - option "Trip duration (median)"
+        - option "Pageviews"
+        - option "Pageviews growth"
+        - option "Nomads gender ratio"
+        - option "Nomad vs. local gender ratio"
+        - option "Nomads.com Chat messages"
+        - option "Likes from members"
+        - option "Dislikes from members"
+        - option "Like/dislike ratio"
+        - option "Liked percentage"
+        - option "Likes from locals"
+        - option "Dislikes from locals"
+        - option "Like/dislike ratio by men"
+        - option "Like/dislike ratio by women"
+        - option "Cost for nomad"
+        - option "Cost for local"
+        - option "Cost for expat"
+        - option "Growth in trips 5Y"
+        - option "Growth in trips 2Y"
+        - option "Growth in trips 1Y"
+        - option "Tourism growth 2020"
+        - option "Tourists per year"
+        - option "Tourists per capita"
+        - option "Return rate for nomads"
+        - option "Distance to South Korea"
+        - option "Flight time from South Korea"
+        - option "Altitude"
+        - option "Climate"
+        - option "Hotel price"
+        - option "Airbnb price"
+        - option "Rent price 1br"
+        - option "Airbnb price vs. rent price"
+        - option "House price (median)"
+        - option "Beer price"
+        - option "Air quality (now)"
+        - option "Air quality (annual avg)"
+        - option "Sustainability (EPI)"
+        - option "CO2 emissions"
+        - option "CO2 per capita"
+        - option "Noise pollution"
+        - option "Light pollution"
+        - option "UV index"
+        - option "Commute time"
+        - option "Nightlife"
+        - option "Adult nightlife"
+        - option "Female safety"
+        - option "Foreigner friendliness"
+        - option "Racial tolerance"
+        - option "Freedom of speech"
+        - option "Power cuts"
+        - option "Democracy"
+        - option "Human Development Index"
+        - option "Education"
+        - option "Religious"
+        - option "Islamic"
+        - option "Population"
+        - option "Population density"
+        - option "Happiness"
+        - option "Intelligence (IQ)"
+        - option "LGBTQ+ friendliness"
+        - option "Refugees per 1,000 ppl"
+        - option "Refugees by country of origin"
+        - option "Density of people"
+        - option "Legal drinking age"
+        - option "Sexual partners avg"
+        - option "Sexual openness"
+        - option "Racial tolerance"
+        - option "Income / GDP per capita"
+        - option "Growth rate economy (GDP)"
+        - option "Income inequality"
+        - option "Labor productivity"
+        - option "Gender equality"
+        - option "Gender pay gap"
+        - option "Venture capital"
+        - option "Venture capital per capita"
+        - option "Tax rate (% of GDP)"
+        - option "Cost-to-income ratio"
+        - option "Tax per capita"
+        - option "Product quality"
+        - option "Birth rate"
+        - option "Homelessness"
+        - option "Gender ratio"
+        - option "Gender ratio (inv)"
+        - option "Gender ratio (young)"
+        - option "Gender ratio (young, inv)"
+        - option "Height"
+        - option "Height men"
+        - option "Height women"
+        - option "Overweight rate (BMI>25)"
+        - option "Obesity rate (BMI>30)"
+        - option "Body mass index men"
+        - option "Body mass index women"
+        - option "Plastic surgery"
+        - option "Diabetes prevalence"
+        - option "Smoking % / pop"
+        - option "Smoking packs / year"
+        - option "Alcohol consumption"
+        - option "Calorie consumption"
+        - option "Carb to protein consumption ratio"
+        - option "Carbs consumption %"
+        - option "Protein consumption %"
+        - option "Fats consumption %"
+        - option "Sugar consumption"
+        - option "Fat consumption"
+        - option "Protein consumption"
+        - option "Heart disease death rate"
+        - option "Cancer rate"
+        - option "Life expectancy"
+        - option "Median age"
+        - option "Healthcare"
+        - option "Hospital ranking"
+        - option "Suicide rate"
+        - option "Crossfit gyms"
+        - option "COVID cases"
+        - option "COVID cases per 1M inhabitants"
+        - option "COVID deaths"
+        - option "COVID deaths per 1M inhabitants"
+        - option "COVID tests"
+        - option "COVID tests per 1M inhabitants"
+        - option "COVID cases/tests"
+        - option "COVID case fatality rate"
+        - option "Guns per capita"
+        - option "Murder rate"
+        - option "Suicide rate"
+        - option "Natural disaster risk"
+        - option "Female safety"
+        - option "LGBT safety"
+        - option "Safety"
+        - option "Traffic safety"
+        - option "Hierarchical"
+        - option "Masculinity"
+        - option "Risk avoidance"
+        - option "Individualism"
+        - option "Ex-colony"
+        - option "Ex-colony (now non native pop)"
+        - option "Ex-colony (now native pop)"
+        - option "Tag count"
+        - option "Hipsters"
+        - option "Suits"
+        - option "Normies"
+        - option "Tourists"
+        - option "Students"
+        - option "Rich"
+        - option "Temperature January"
+        - option "Temperature February"
+        - option "Temperature March"
+        - option "Temperature April"
+        - option "Temperature May"
+        - option "Temperature June"
+        - option "Temperature July"
+        - option "Temperature August"
+        - option "Temperature September"
+        - option "Temperature October"
+        - option "Temperature November"
+        - option "Temperature December"
+        - option "UV index January"
+        - option "UV index February"
+        - option "UV index March"
+        - option "UV index April"
+        - option "UV index May"
+        - option "UV index June"
+        - option "UV index July"
+        - option "UV index August"
+        - option "UV index September"
+        - option "UV index October"
+        - option "UV index November"
+        - option "UV index December"
+        - option "Humidity January"
+        - option "Humidity February"
+        - option "Humidity March"
+        - option "Humidity April"
+        - option "Humidity May"
+        - option "Humidity June"
+        - option "Humidity July"
+        - option "Humidity August"
+        - option "Humidity September"
+        - option "Humidity October"
+        - option "Humidity November"
+        - option "Humidity December"
+        - option "Nomads there in January"
+        - option "Nomads there in February"
+        - option "Nomads there in March"
+        - option "Nomads there in April"
+        - option "Nomads there in May"
+        - option "Nomads there in June"
+        - option "Nomads there in July"
+        - option "Nomads there in August"
+        - option "Nomads there in September"
+        - option "Nomads there in October"
+        - option "Nomads there in November"
+        - option "Nomads there in December"
+        - option "Nomad score in January"
+        - option "Nomad score in February"
+        - option "Nomad score in March"
+        - option "Nomad score in April"
+        - option "Nomad score in May"
+        - option "Nomad score in June"
+        - option "Nomad score in July"
+        - option "Nomad score in August"
+        - option "Nomad score in September"
+        - option "Nomad score in October"
+        - option "Nomad score in November"
+        - option "Nomad score in December"
+        - option "Latitude (N to S)"
+        - option "Longitude (E to W)"
+      - combobox "Change view:" [ref=e38] [cursor=pointer]:
+        - option "Grid view" [selected]
+        - option "Map view"
+        - option "Chart view"
+      - generic [ref=e39] [cursor=pointer]: Compare
+    - list [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e43] [cursor=pointer]:
+          - img "Get insured" [ref=e44]
+          - generic [ref=e45]:
+            - text: Global travel and health coverage for nomads, starting at $2/day
+            - generic [ref=e46]: Get insured
+          - paragraph [ref=e47]: Ad
+        - generic [ref=e48]:
+          - strong [ref=e49]: 🥥 Next meetups (13/mo)
+          - 'link "Tokyo Tue 16th Jun: Tokyo 1 RSVPs" [ref=e50] [cursor=pointer]':
+            - /url: https://nomads.com/meetups#cdff04f093da0cfaaa630a970b5f4a70
+            - img "Tokyo" [ref=e51]
+            - generic [ref=e52]:
+              - text: "Tue 16th Jun: Tokyo"
+              - generic [ref=e53]: 1 RSVPs
+          - 'link "Bangkok Sat 13th Jun: Bangkok 2 RSVPs 47047618c7513427c739e1533e8e25f0 ffdad81bb5202c390923957cd71f67ef" [ref=e55] [cursor=pointer]':
+            - /url: https://nomads.com/meetups#d8c73e964b1c76fa22f3ed85e23f8912
+            - img "Bangkok" [ref=e56]
+            - generic [ref=e57]:
+              - text: "Sat 13th Jun: Bangkok"
+              - generic [ref=e58]: 2 RSVPs
+            - img "47047618c7513427c739e1533e8e25f0" [ref=e59]
+            - img "ffdad81bb5202c390923957cd71f67ef" [ref=e60]
+          - 'link "Asuncion Thu 11th Jun: Asuncion 1 RSVPs" [ref=e62] [cursor=pointer]':
+            - /url: https://nomads.com/meetups#b95fcf405a03b07dfba11559bde237a2
+            - img "Asuncion" [ref=e63]
+            - generic [ref=e64]:
+              - text: "Thu 11th Jun: Asuncion"
+              - generic [ref=e65]: 1 RSVPs
+          - 'link "Bangkok Sun 7th Jun: Bangkok 1 RSVPs" [ref=e67] [cursor=pointer]':
+            - /url: https://nomads.com/meetups#cc1393de4ff8a28716bca5ab471d843d
+            - img "Bangkok" [ref=e68]
+            - generic [ref=e69]:
+              - text: "Sun 7th Jun: Bangkok"
+              - generic [ref=e70]: 1 RSVPs
+          - 'link "Playa del Carmen Sat 30th May: Playa del Carmen 3 RSVPs b059255485708f77612dc639ca61f5ec Photo of meetup in Playa del Carmen" [ref=e72] [cursor=pointer]':
+            - /url: https://nomads.com/meetups#a7ad90801a23e6bc50a1e492dbe8d518
+            - img "Playa del Carmen" [ref=e73]
+            - generic [ref=e74]:
+              - text: "Sat 30th May: Playa del Carmen"
+              - generic [ref=e75]: 3 RSVPs
+            - img "b059255485708f77612dc639ca61f5ec" [ref=e76]
+            - img "Photo of meetup in Playa del Carmen" [ref=e77]
+          - link "See upcoming meetups" [ref=e79] [cursor=pointer]:
+            - /url: /meetups
+        - listitem [ref=e80]:
+          - link "Visit Indonesia" [ref=e83] [cursor=pointer]:
+            - /url: /indonesia
+          - img "Visit Indonesia" [ref=e85]
+          - generic [ref=e87]: 1,480x viewed
+        - generic [ref=e88]:
+          - strong [ref=e89]: 🛩 Traveling now (25)
+          - link "A nomad" [ref=e90] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e91]
+          - link "A nomad" [ref=e92] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e93]
+          - link "A nomad" [ref=e94] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e95]
+          - link "A nomad" [ref=e96] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e97]
+          - link "A nomad" [ref=e98] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e99]
+          - link "A nomad" [ref=e100] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e101]
+          - link "A nomad" [ref=e102] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e103]
+          - link "A nomad" [ref=e104] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e105]
+          - link "A nomad" [ref=e106] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e107]
+          - link "A nomad" [ref=e108] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e109]
+          - link "A nomad" [ref=e110] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e111]
+          - link "A nomad" [ref=e112] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e113]
+          - link "A nomad" [ref=e114] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e115]
+          - link "A nomad" [ref=e116] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e117]
+          - link "A nomad" [ref=e118] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e119]
+          - link "A nomad" [ref=e120] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e121]
+          - link "A nomad" [ref=e122] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e123]
+          - link "A nomad" [ref=e124] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e125]
+          - link "A nomad" [ref=e126] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e127]
+          - link "A nomad" [ref=e128] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "A nomad" [ref=e129]
+        - generic [ref=e130]:
+          - strong [ref=e131]: 👋 New members (671/mo)
+          - link "ekolb0" [ref=e132] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "ekolb0" [ref=e133]
+          - link "thekoenekamp" [ref=e134] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "thekoenekamp" [ref=e135]
+          - link "gizemrim" [ref=e136] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "gizemrim" [ref=e137]
+          - link "timo97" [ref=e138] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "timo97" [ref=e139]
+          - link "nicotira" [ref=e140] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "nicotira" [ref=e141]
+          - link "danonechik94" [ref=e142] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "danonechik94" [ref=e143]
+          - link "nikolalk" [ref=e144] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "nikolalk" [ref=e145]
+          - link "thomaslfdw" [ref=e146] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "thomaslfdw" [ref=e147]
+          - link "marthaaa" [ref=e148] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "marthaaa" [ref=e149]
+          - link "morganlsy" [ref=e150] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "morganlsy" [ref=e151]
+          - link "christinem475" [ref=e152] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "christinem475" [ref=e153]
+          - link "petersanz" [ref=e154] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "petersanz" [ref=e155]
+          - link "musangowope" [ref=e156] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "musangowope" [ref=e157]
+          - link "wsupertrampg" [ref=e158] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "wsupertrampg" [ref=e159]
+          - link "timunbound" [ref=e160] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "timunbound" [ref=e161]
+          - link "badgerinco" [ref=e162] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "badgerinco" [ref=e163]
+          - link "juanmayezzi" [ref=e164] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "juanmayezzi" [ref=e165]
+          - link "gideon66" [ref=e166] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "gideon66" [ref=e167]
+          - link "alyssa187" [ref=e168] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "alyssa187" [ref=e169]
+          - link "mitich" [ref=e170] [cursor=pointer]:
+            - /url: "javascript:"
+            - img "mitich" [ref=e171]
+        - listitem [ref=e172]:
+          - generic [ref=e173]:
+            - link "Ericeira" [ref=e175] [cursor=pointer]:
+              - /url: ""
+            - heading "Portugal" [level=1] [ref=e176]:
+              - link "Portugal":
+                - /url: /country/portugal
+          - generic: Nomads.com suggestion
+          - img "Ericeira" [ref=e178]
+          - generic [ref=e179]:
+            - paragraph
+            - generic [ref=e180]: ⭐️ Overall
+            - generic [ref=e183]: 💵 Cost
+            - generic [ref=e186]: 🧐 Very expensive
+            - generic [ref=e187]: 📡 Internet
+            - generic [ref=e190]: 🚀 Super fast
+            - generic [ref=e191]: 👍 Liked
+            - generic [ref=e194]: great
+            - generic [ref=e195]: 👮 Safety
+            - generic [ref=e198]: great
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - text: ☀️
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - text: Feels
+                  - generic [ref=e203]: 35°
+                - generic [ref=e204]: 31°
+              - generic [ref=e205]: 🥵
+            - generic [ref=e207]: "49"
+            - generic [ref=e208]: $4,370 / mo
+            - generic [ref=e209]:
+              - img [ref=e211]
+              - generic [ref=e213]:
+                - text: "94"
+                - generic [ref=e214]: Mbps
+        - generic [ref=e216] [cursor=pointer]:
+          - img "Get eSIM" [ref=e217]
+          - generic [ref=e218]:
+            - text: Install eSIM once. Reuse on every trip. 20% off for Nomads.com users.
+            - generic [ref=e219]: Get eSIM
+          - paragraph [ref=e220]: Ad
+        - generic [ref=e221]:
+          - strong [ref=e222]: 🤩 New Nomads.com chat
+          - link [ref=e223] [cursor=pointer]:
+            - /url: /telegram
+            - img [ref=e224]
+          - link "Join the chat" [ref=e225] [cursor=pointer]:
+            - /url: /chat
+      - listitem [ref=e226]:
+        - generic [ref=e227]:
+          - heading "Beijing" [level=2] [ref=e228]:
+            - link "Beijing":
+              - /url: /beijing
+          - heading "China" [level=3] [ref=e229]:
+            - link "China":
+              - /url: "/country/{country-slug}"
+        - text: "{badge}"
+        - img "Beijing for a Digital Nomad" [ref=e231]
+        - generic [ref=e232]:
+          - paragraph
+          - generic [ref=e233]: ⭐️ Overall
+          - generic [ref=e236]: 💵 Cost
+          - generic [ref=e240]: 📡 Internet
+          - generic [ref=e244]: 👍 Liked
+          - generic [ref=e248]: 👮 Safety
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - text: 🌧
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - text: Feels
+                - generic [ref=e256]: 31°
+              - generic [ref=e257]: 29°
+            - generic [ref=e258]:
+              - generic [ref=e259]: AQI
+              - generic [ref=e260]: "46"
+          - generic [ref=e262]: "70"
+          - generic [ref=e263]:
+            - text: $2,585 / mo
+            - generic [ref=e264]: for a nomad
+          - generic [ref=e265]:
+            - img [ref=e267]
+            - generic [ref=e269]:
+              - text: "12"
+              - generic [ref=e270]: Mbps
+  - generic [ref=e271] [cursor=pointer]:
+    - generic [ref=e272]: USD ─ $
+    - generic [ref=e273]: °C
+    - generic [ref=e274]: Nomad cost
+  - text: Popular ✨ Popular ✨
+  - generic [ref=e275]:
+    - text: 🌍 Join a community of remote workers living around the world
+    - link "Join Nomads.com" [ref=e277] [cursor=pointer]:
+      - /url: /?join=nomads
+    - generic [ref=e278] [cursor=pointer]: ×
+  - generic: c1ms
+  - iframe [ref=e281]:
+    - generic [ref=f7e2]:
+      - generic [ref=f7e6]:
+        - text: "사이트 소유자가 확인해야 하는 오류:"
+        - text: 사이트 키의 도메인이 올바르지 않습니다.
+      - generic [ref=f7e10]: reCAPTCHA

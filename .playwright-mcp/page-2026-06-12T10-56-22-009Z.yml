@@ -1,0 +1,407 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "주요 콘텐츠로 이동" [ref=e2] [cursor=pointer]
+      - link "접근성 도움말" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=ko
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "2026년 월드컵 개막 기념" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=ko&ictx=2&sa=X&ved=0ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQPQgK
+          - img "2026년 월드컵 개막 기념" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "검색" [ref=e19]: 코드팩토리 코드팩토리
+            - generic [ref=e20]:
+              - button "지우기" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "입력 도구" [ref=e28] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "음성 검색" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+                - button "이미지로 검색" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+          - button "검색" [ref=e38] [cursor=pointer]:
+            - img [ref=e41]
+    - generic [ref=e43]:
+      - button "설정" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google 앱" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "로그인" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=ko&passive=true&continue=https://www.google.com/search%3Fq%3D%25EC%25BD%2594%25EB%2593%259C%25ED%258C%25A9%25ED%2586%25A0%25EB%25A6%25AC%26sei%3Dz-Uraqr-N6PDvr0P5anpqA4&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e72]:
+        - list [ref=e73]:
+          - listitem [ref=e74]:
+            - link "AI 모드" [ref=e77] [cursor=pointer]:
+              - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&udm=50&fbs=ADc_l-bD_nyrjATWBKup7flJ4rea5XFXsPHwMjGsTekJ1HCohBAQ3Hh19DqzlO7wr7YUgTdO4_C3uXoTo1-SRivc_Swap6of3IufrklCc-R1r_cYZiN4MoktmDvuiC1PeD4nH8f3b94UIye9mkD9gJ2OhVe3exK-hbmw6eC71bKU8Iww7ZBWxXDSN4anKuWYzQn_6P9msObToyspvu095YuigmETY6lXxzyOSC7CqTlAUcF0IYHKDC4&aep=1&ntc=1&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ2J8OegQIExAD
+              - generic [ref=e80]: AI 모드
+          - listitem [ref=e81]:
+            - link "전체" [disabled] [ref=e82]:
+              - generic [ref=e84]: 전체
+          - listitem [ref=e85]:
+            - link "이미지" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=942940f831a9853d&udm=2&fbs=ADc_l-bD_nyrjATWBKup7flJ4rea5XFXsPHwMjGsTekJ1HCohBAQ3Hh19DqzlO7wr7YUgTdO4_C3uXoTo1-SRivc_Swap6of3IufrklCc-R1r_cYZiN4MoktmDvuiC1PeD4nH8f3b94UIye9mkD9gJ2OhVe3exK-hbmw6eC71bKU8Iww7ZBWxXDSN4anKuWYzQn_6P9msObToyspvu095YuigmETY6lXxzyOSC7CqTlAUcF0IYHKDC4&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQtKgLegQIGBAB
+              - generic [ref=e88]: 이미지
+          - listitem [ref=e89]:
+            - link "동영상" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=942940f831a9853d&udm=7&fbs=ADc_l-bD_nyrjATWBKup7flJ4rea5XFXsPHwMjGsTekJ1HCohBAQ3Hh19DqzlO7wr7YUgTdO4_C3uXoTo1-SRivc_Swap6of3IufrklCc-R1r_cYZiN4MoktmDvuiC1PeD4nH8f3b94UIye9mkD9gJ2OhVe3exK-hbmw6eC71bKU8Iww7ZBWxXDSN4anKuWYzQn_6P9msObToyspvu095YuigmETY6lXxzyOSC7CqTlAUcF0IYHKDC4&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQtKgLegQIFxAB
+              - generic [ref=e92]: 동영상
+          - listitem [ref=e93]:
+            - link "쇼핑" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=942940f831a9853d&udm=28&fbs=ADc_l-bD_nyrjATWBKup7flJ4rea5XFXsPHwMjGsTekJ1HCohBAQ3Hh19DqzlO7wr7YUgTdO4_C3uXoTo1-SRivc_Swap6of3IufrklCc-R1r_cYZiN4MoktmDvuiC1PeD4nH8f3b94UIye9mkD9gJ2OhVe3exK-hbmw6eC71bKU8Iww7ZBWxXDSN4anKuWYzQn_6P9msObToyspvu095YuigmETY6lXxzyOSC7CqTlAUcF0IYHKDC4&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&ved=1t:220175&ictx=111
+              - generic [ref=e96]: 쇼핑
+          - listitem [ref=e97]:
+            - link "뉴스" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&tbm=nws&source=lnms&fbs=ADc_l-bD_nyrjATWBKup7flJ4rea5XFXsPHwMjGsTekJ1HCohBAQ3Hh19DqzlO7wr7YUgTdO4_C3uXoTo1-SRivc_Swap6of3IufrklCc-R1r_cYZiN4MoktmDvuiC1PeD4nH8f3b94UIye9mkD9gJ2OhVe3exK-hbmw6eC71bKU8Iww7ZBWxXDSN4anKuWYzQn_6P9msObToyspvu095YuigmETY6lXxzyOSC7CqTlAUcF0IYHKDC4&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ0pQJegQIFRAB
+              - generic [ref=e100]: 뉴스
+          - listitem [ref=e101]:
+            - link "짧은 동영상" [ref=e102] [cursor=pointer]:
+              - /url: /search?sca_esv=942940f831a9853d&udm=39&fbs=ADc_l-bD_nyrjATWBKup7flJ4rea5XFXsPHwMjGsTekJ1HCohBAQ3Hh19DqzlO7wr7YUgTdO4_C3uXoTo1-SRivc_Swap6of3IufrklCc-R1r_cYZiN4MoktmDvuiC1PeD4nH8f3b94UIye9mkD9gJ2OhVe3exK-hbmw6eC71bKU8Iww7ZBWxXDSN4anKuWYzQn_6P9msObToyspvu095YuigmETY6lXxzyOSC7CqTlAUcF0IYHKDC4&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQs6gLegQIFhAB
+              - generic [ref=e104]: 짧은 동영상
+          - listitem [ref=e105]:
+            - button "필터 더보기" [ref=e106] [cursor=pointer]:
+              - generic "필터 더보기" [ref=e107]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]: 더보기
+                  - img [ref=e111]
+        - button "도구" [ref=e114] [cursor=pointer]:
+          - generic [ref=e116]:
+            - generic [ref=e117]: 도구
+            - img [ref=e119]
+    - heading "검색결과" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "웹 검색결과" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "코드팩토리 YouTube · 코드팩토리 팔로어 7.2만명 이상" [ref=e142] [cursor=pointer]:
+                - /url: https://www.youtube.com/@codefactory_official
+                - heading "코드팩토리" [level=3] [ref=e143]
+                - generic [ref=e149]:
+                  - generic [ref=e151]: YouTube · 코드팩토리
+                  - generic [ref=e153]: 팔로어 7.2만명 이상
+              - button "검색결과에 관한 정보" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e161]:
+              - emphasis [ref=e162]: 프로그래밍을 쉽게 코드팩토리
+              - text: . AI, 바이브코딩, 프로그래밍 관련 영상을 빠르고 깊이 있게 전달합니다. ...more 프로그래밍을 쉽게 코드팩토리. AI, 바이브코딩 ...
+        - generic [ref=e163]:
+          - generic [ref=e167]:
+            - generic [ref=e170]:
+              - link "코드팩토리 - 프로그래밍을 쉽게 codefactory.ai https://links.codefactory.ai" [ref=e172] [cursor=pointer]:
+                - /url: https://links.codefactory.ai/
+                - heading "코드팩토리 - 프로그래밍을 쉽게" [level=3] [ref=e173]
+                - generic [ref=e179]:
+                  - generic [ref=e181]: codefactory.ai
+                  - generic [ref=e183]: https://links.codefactory.ai
+              - button "검색결과에 관한 정보" [ref=e184] [cursor=pointer]:
+                - img [ref=e187]
+            - generic [ref=e191]:
+              - text: 코드팩토리에 오신 것을 환영합니다!
+              - emphasis [ref=e192]: 개발자 커뮤니티, 강의, 취업 정보를 한 곳에서 만나보세요
+              - text: . 포인트를 모아 티어를 올려보세요!
+          - generic [ref=e196]:
+            - generic [ref=e199]:
+              - link "최지호(코드팩토리) | 경영인/사업가 교보문고 https://store.kyobobook.co.kr › person › detail" [ref=e201] [cursor=pointer]:
+                - /url: https://store.kyobobook.co.kr/person/detail/1114580502
+                - heading "최지호(코드팩토리) | 경영인/사업가" [level=3] [ref=e202]
+                - generic [ref=e208]:
+                  - generic [ref=e210]: 교보문고
+                  - generic [ref=e212]: https://store.kyobobook.co.kr › person › detail
+              - button "검색결과에 관한 정보" [ref=e213] [cursor=pointer]:
+                - img [ref=e216]
+            - generic [ref=e220]:
+              - text: 최지호(코드팩토리)작가는
+              - emphasis [ref=e221]: 대한민국의 국내인물,경영인/사업가
+              - text: 입니다. 그의 대표작으로는 요즘 바이브 코딩 안티그래비티 완벽 가이드 25200원, 요즘 바이브 코딩 ...
+          - generic [ref=e225]:
+            - generic [ref=e228]:
+              - link "코드팩토리님의 소개 인프런 https://www.inflearn.com › users" [ref=e230] [cursor=pointer]:
+                - /url: https://www.inflearn.com/users/786008/@codefactory?srsltid=AfmBOor5aZM0xxw4BHYUUPYCHyZJ6bVfoJ73wqC2YRMEYU6nTrARZKx5
+                - heading "코드팩토리님의 소개" [level=3] [ref=e231]
+                - generic [ref=e237]:
+                  - generic [ref=e239]: 인프런
+                  - generic [ref=e241]: https://www.inflearn.com › users
+              - button "검색결과에 관한 정보" [ref=e242] [cursor=pointer]:
+                - img [ref=e245]
+            - generic [ref=e249]:
+              - text: "["
+              - emphasis [ref=e250]: 코드팩토리
+              - text: "] [중급] Flutter 진짜 실전! 상태관리, 캐시관리, Code Generation, GoRouter, 인증로직 등 중수가 되기 위한 필수 스킬들!"
+          - generic [ref=e254]:
+            - generic [ref=e257]:
+              - link "홈 | 코드팩토리 블로그 코드팩토리 블로그 https://blog.codefactory.ai" [ref=e259] [cursor=pointer]:
+                - /url: https://blog.codefactory.ai/
+                - heading "홈 | 코드팩토리 블로그" [level=3] [ref=e260]
+                - generic [ref=e266]:
+                  - generic [ref=e268]: 코드팩토리 블로그
+                  - generic [ref=e270]: https://blog.codefactory.ai
+              - button "검색결과에 관한 정보" [ref=e271] [cursor=pointer]:
+                - img [ref=e274]
+            - generic [ref=e278]:
+              - text: 코드팩토리 개발 블로그에 오신것을 환영합니다. 코드팩토리는
+              - emphasis [ref=e279]: Youtube 및 블로그로 트렌디하고 유용한 개발 팁을 강의해주는 브랜드
+              - text: 입니다. DevOps, Backend, Frontend, ...
+          - generic [ref=e283]:
+            - generic [ref=e285]:
+              - heading "동영상" [level=2] [ref=e286]
+              - button "검색결과에 관한 정보" [ref=e287] [cursor=pointer]:
+                - img [ref=e290]
+            - generic [ref=e293]:
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - generic [ref=e300]:
+                    - link "How to Become a Developer in 2026 + Code Factory Summary YouTube 코드팩토리 2025. 12. 27." [ref=e302] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=nVigJIg4xio
+                      - heading "How to Become a Developer in 2026 + Code Factory Summary YouTube 코드팩토리 2025. 12. 27." [level=3] [ref=e303]:
+                        - generic [ref=e306]: How to Become a Developer in 2026 + Code Factory Summary
+                        - generic [ref=e308]:
+                          - generic [ref=e309]:
+                            - text: YouTube
+                            - generic [ref=e310]: · 코드팩토리
+                          - generic [ref=e311]: 2025. 12. 27.
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · 코드팩토리
+                        - button "검색결과에 관한 정보" [ref=e312] [cursor=pointer]:
+                          - img [ref=e315]
+                  - button "코드팩토리님이 YouTube에 게시한 How to Become a Developer in 2026 + Code Factory Summary. Google에서 재생. 8:55" [ref=e317] [cursor=pointer]:
+                    - generic [ref=e318]:
+                      - img [ref=e321]
+                      - generic [ref=e324]:
+                        - generic [ref=e325]: 8:55
+                        - img [ref=e328]
+                - button "이 동영상의 주요 순간 2개" [ref=e334] [cursor=pointer]:
+                  - generic [ref=e342]:
+                    - generic [ref=e345]: 이 동영상의 주요 순간 2개
+                    - img [ref=e347]
+              - generic [ref=e354]:
+                - generic [ref=e355]:
+                  - link "OpenAI x 코드팩토리 Codex로 모노레포 멀티 플랫폼 서비스 ... YouTube 코드팩토리 1개월 전" [ref=e357] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=iUbHzDQEJKk
+                    - heading "OpenAI x 코드팩토리 Codex로 모노레포 멀티 플랫폼 서비스 ... YouTube 코드팩토리 1개월 전" [level=3] [ref=e358]:
+                      - generic [ref=e361]: OpenAI x 코드팩토리 Codex로 모노레포 멀티 플랫폼 서비스 ...
+                      - generic [ref=e363]:
+                        - generic [ref=e364]:
+                          - text: YouTube
+                          - generic [ref=e365]: · 코드팩토리
+                        - generic [ref=e366]: 1개월 전
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · 코드팩토리
+                      - button "검색결과에 관한 정보" [ref=e367] [cursor=pointer]:
+                        - img [ref=e370]
+                - button "코드팩토리님이 YouTube에 게시한 OpenAI x 코드팩토리 Codex로 모노레포 멀티 플랫폼 서비스 .... Google에서 재생. 4:01:02" [ref=e372] [cursor=pointer]:
+                  - generic [ref=e373]:
+                    - img [ref=e376]
+                    - generic [ref=e379]:
+                      - generic [ref=e380]: 4:01:02
+                      - img [ref=e383]
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - link "[코드팩토리 x 오준석] 한달에 100시간 아껴주는 바이브코딩 ... YouTube 코드팩토리 2025. 7. 10." [ref=e394] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=vQyArZDZYZI
+                    - heading "[코드팩토리 x 오준석] 한달에 100시간 아껴주는 바이브코딩 ... YouTube 코드팩토리 2025. 7. 10." [level=3] [ref=e395]:
+                      - generic [ref=e398]: "[코드팩토리 x 오준석] 한달에 100시간 아껴주는 바이브코딩 ..."
+                      - generic [ref=e400]:
+                        - generic [ref=e401]:
+                          - text: YouTube
+                          - generic [ref=e402]: · 코드팩토리
+                        - generic [ref=e403]: 2025. 7. 10.
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · 코드팩토리
+                      - button "검색결과에 관한 정보" [ref=e404] [cursor=pointer]:
+                        - img [ref=e407]
+                - button "코드팩토리님이 YouTube에 게시한 [코드팩토리 x 오준석] 한달에 100시간 아껴주는 바이브코딩 .... Google에서 재생. 1:07:24" [ref=e409] [cursor=pointer]:
+                  - generic [ref=e410]:
+                    - img [ref=e416]
+                    - generic [ref=e419]:
+                      - generic [ref=e420]: 1:07:24
+                      - img [ref=e423]
+            - link "모든 동영상 보기" [ref=e427] [cursor=pointer]:
+              - /url: /search?sca_esv=942940f831a9853d&udm=7&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8ccDKAJ6BAgpEAQ
+              - separator [ref=e428]
+              - generic [ref=e429]:
+                - generic [ref=e430]: 모두 보기
+                - img [ref=e432]
+          - generic [ref=e437]:
+            - generic [ref=e440]:
+              - link "codefactory-co/golden-rabbit-flutter-novice GitHub https://github.com › codefactory-co › golden-rabbit-flutt..." [ref=e442] [cursor=pointer]:
+                - /url: https://github.com/codefactory-co/golden-rabbit-flutter-novice
+                - heading "codefactory-co/golden-rabbit-flutter-novice" [level=3] [ref=e443]
+                - generic [ref=e449]:
+                  - generic [ref=e451]: GitHub
+                  - generic [ref=e453]: https://github.com › codefactory-co › golden-rabbit-flutt...
+              - button "검색결과에 관한 정보" [ref=e454] [cursor=pointer]:
+                - img [ref=e457]
+            - generic [ref=e461]:
+              - text: 현재 주식회사
+              - emphasis [ref=e462]: 코드팩토리
+              - text: 를 창업하여 개발을 하면서 초보자뿐만 아니라 현직 개발자에게도 유용한 개발 강의를 제작합니다. 밀리의서재 플러터 전환 차세대 프로젝트를 ...
+          - generic [ref=e466]:
+            - generic [ref=e469]:
+              - link "코딩팩토리 코딩팩토리 https://coding-factory.tistory.com" [ref=e471] [cursor=pointer]:
+                - /url: https://coding-factory.tistory.com/
+                - heading "코딩팩토리" [level=3] [ref=e472]
+                - generic [ref=e478]:
+                  - generic [ref=e480]: 코딩팩토리
+                  - generic [ref=e482]: https://coding-factory.tistory.com
+              - button "검색결과에 관한 정보" [ref=e483] [cursor=pointer]:
+                - img [ref=e486]
+            - generic [ref=e489]: 분류 전체보기 (1172) · Languague (247) · C , C++ , C# (87) · Java (108) · Python (47) · Assembly (3) · Web (58) · Web Programming (35) · HTML, CSS (78) ...
+          - generic [ref=e493]:
+            - generic [ref=e496]:
+              - 'link "코드팩토리의 바이브코딩 스쿨: MCP로 완성하는 6개 고 ... 패스트캠퍼스 https://fastcampus.co.kr › biz_online_codefactory" [ref=e498] [cursor=pointer]':
+                - /url: https://fastcampus.co.kr/biz_online_codefactory
+                - 'heading "코드팩토리의 바이브코딩 스쿨: MCP로 완성하는 6개 고 ..." [level=3] [ref=e499]'
+                - generic [ref=e505]:
+                  - generic [ref=e507]: 패스트캠퍼스
+                  - generic [ref=e509]: https://fastcampus.co.kr › biz_online_codefactory
+              - button "검색결과에 관한 정보" [ref=e510] [cursor=pointer]:
+                - img [ref=e513]
+            - generic [ref=e517]:
+              - text: 아이디어만 있다면 누구나 메이커가 될 수 있는 시대! 약 3만 명의 누적 수강생이 증명한 탄탄한 강의력,
+              - emphasis [ref=e518]: 코드팩토리
+              - text: 가 알려주는 바이브코딩 수익화.
+          - generic [ref=e522]:
+            - generic [ref=e525]:
+              - link "플러터 프로그래밍 3판 - 코드팩토리의 Flutter 완벽 가이드 골든래빗 https://goldenrabbit.co.kr › 도서" [ref=e527] [cursor=pointer]:
+                - /url: https://goldenrabbit.co.kr/books/9791194383055
+                - heading "플러터 프로그래밍 3판 - 코드팩토리의 Flutter 완벽 가이드" [level=3] [ref=e528]
+                - generic [ref=e534]:
+                  - generic [ref=e536]: 골든래빗
+                  - generic [ref=e538]: https://goldenrabbit.co.kr › 도서
+              - button "검색결과에 관한 정보" [ref=e539] [cursor=pointer]:
+                - img [ref=e542]
+            - generic [ref=e546]:
+              - text: 《코드팩토리의 플러터 프로그래밍(3판)》은
+              - emphasis [ref=e547]: 인프런 NO.1 플러터 강사인 최지호(코드팩토리)가 직접 집필한 책
+              - text: 입니다. 강의에서 얻을 수 있는 장점들을 책에 최대한 담아 ...
+            - generic [ref=e550]: ₩44,000
+      - generic [ref=e552]:
+        - generic [ref=e557]:
+          - heading "관련 검색어" [level=2] [ref=e559]
+          - generic [ref=e561]:
+            - generic [ref=e562]:
+              - link "코드팩토리 깃 허브" [ref=e566] [cursor=pointer]:
+                - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC+%EA%B9%83+%ED%97%88%EB%B8%8C&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ1QJ6BAguEAE
+                - generic [ref=e567]:
+                  - generic [ref=e572]: 코드팩토리 깃 허브
+                  - img [ref=e576]
+              - link "코드 팩토리 책" [ref=e581] [cursor=pointer]:
+                - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C+%ED%8C%A9%ED%86%A0%EB%A6%AC+%EC%B1%85&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ1QJ6BAgzEAE
+                - generic [ref=e582]:
+                  - generic [ref=e587]: 코드 팩토리 책
+                  - img [ref=e591]
+              - link "코드 팩토리 회사" [ref=e596] [cursor=pointer]:
+                - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C+%ED%8C%A9%ED%86%A0%EB%A6%AC+%ED%9A%8C%EC%82%AC&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ1QJ6BAgyEAE
+                - generic [ref=e597]:
+                  - generic [ref=e602]: 코드 팩토리 회사
+                  - img [ref=e606]
+              - link "코드팩토리 플러터" [ref=e611] [cursor=pointer]:
+                - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC+%ED%94%8C%EB%9F%AC%ED%84%B0&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ1QJ6BAgxEAE
+                - generic [ref=e612]:
+                  - generic [ref=e617]: 코드팩토리 플러터
+                  - img [ref=e621]
+            - generic [ref=e623]:
+              - link "코드 팩토리 유튜브" [ref=e627] [cursor=pointer]:
+                - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C+%ED%8C%A9%ED%86%A0%EB%A6%AC+%EC%9C%A0%ED%8A%9C%EB%B8%8C&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ1QJ6BAgwEAE
+                - generic [ref=e628]:
+                  - generic [ref=e633]: 코드 팩토리 유튜브
+                  - img [ref=e637]
+              - link "코드 팩토리 강의" [ref=e642] [cursor=pointer]:
+                - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C+%ED%8C%A9%ED%86%A0%EB%A6%AC+%EA%B0%95%EC%9D%98&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ1QJ6BAgvEAE
+                - generic [ref=e643]:
+                  - generic [ref=e648]: 코드 팩토리 강의
+                  - img [ref=e652]
+              - link "코드 팩토리 디시" [ref=e657] [cursor=pointer]:
+                - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C+%ED%8C%A9%ED%86%A0%EB%A6%AC+%EB%94%94%EC%8B%9C&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ1QJ6BAgsEAE
+                - generic [ref=e658]:
+                  - generic [ref=e663]: 코드 팩토리 디시
+                  - img [ref=e667]
+              - link "코드팩토리 NestJS" [ref=e672] [cursor=pointer]:
+                - /url: /search?sca_esv=942940f831a9853d&q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC+NestJS&sa=X&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ1QJ6BAgtEAE
+                - generic [ref=e673]:
+                  - generic [ref=e678]: 코드팩토리 NestJS
+                  - img [ref=e682]
+        - navigation [ref=e684]:
+          - heading "페이지 탐색" [level=1] [ref=e685]
+          - text: "1"
+          - link "Page 2" [ref=e688] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=10&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAE
+            - text: "2"
+          - link "Page 3" [ref=e690] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=20&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAG
+            - text: "3"
+          - link "Page 4" [ref=e692] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=30&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAI
+            - text: "4"
+          - link "Page 5" [ref=e694] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=40&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAK
+            - text: "5"
+          - link "Page 6" [ref=e696] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=50&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAM
+            - text: "6"
+          - link "Page 7" [ref=e698] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=60&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAO
+            - text: "7"
+          - link "Page 8" [ref=e700] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=70&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAQ
+            - text: "8"
+          - link "Page 9" [ref=e702] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=80&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAS
+            - text: "9"
+          - link "Page 10" [ref=e704] [cursor=pointer]:
+            - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=90&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8tMDegQIKhAU
+            - text: "10"
+          - heading "다음" [level=2] [ref=e706]:
+            - link "다음" [ref=e707] [cursor=pointer]:
+              - /url: /search?q=%EC%BD%94%EB%93%9C%ED%8C%A9%ED%86%A0%EB%A6%AC&sca_esv=942940f831a9853d&ei=0OUraqOpKKLB0-kP9dSeoAk&start=10&sa=N&sstk=AU9db-A50itiDAKL1sJSEsDs5NCdFis3y64kJungDwBwSvZ4gsjUFhGnBelCYTeLTJGupVgaZkFeKZdlrw5rzQbPr7dzLgilhOCUiQ&ved=2ahUKEwij0cybxYGVAxWi4DQHHXWqB5QQ8NMDegQIKhAW
+              - generic [ref=e709]: 다음
+      - navigation
+    - contentinfo [ref=e710]:
+      - heading "바닥글 링크" [level=1] [ref=e711]
+      - generic [ref=e715]:
+        - generic [ref=e717]:
+          - text: 대한민국
+          - generic [ref=e719]:
+            - button "서울특별시 - IP 주소 기반" [ref=e721] [cursor=pointer]:
+              - generic [ref=e722]: 서울특별시
+              - generic [ref=e724]:
+                - text: "-"
+                - generic [ref=e725]: IP 주소 기반
+            - text: "-"
+            - button "위치 업데이트" [ref=e727] [cursor=pointer]: 위치 업데이트
+        - generic [ref=e730]:
+          - link "도움말" [ref=e731] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=ko&fg=1
+          - link "의견 보내기" [ref=e732] [cursor=pointer]:
+            - /url: "#"
+          - link "개인정보처리방침" [ref=e733] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=ko&fg=1
+          - link "약관" [ref=e734] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=ko&fg=1
