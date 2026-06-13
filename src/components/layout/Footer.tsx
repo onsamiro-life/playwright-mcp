@@ -10,41 +10,51 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-400">
-      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <footer style={{ backgroundColor: "var(--theme-footer-bg)" }}>
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8" style={{ color: "var(--theme-text-muted)" }}>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
-            <p className="text-xl font-bold text-white">🏕 NomadKR</p>
+            <p className="text-xl font-bold" style={{ color: "var(--theme-hero-text)" }}>🏕 NomadKR</p>
             <p className="mt-3 text-sm leading-relaxed">
               한국에서 디지털 노마드로 살고 싶은 모든 분을 위한 도시별 생활 정보 플랫폼
             </p>
           </div>
           <div>
-            <p className="mb-3 text-sm font-semibold text-white">서비스</p>
+            <p className="mb-3 text-sm font-semibold" style={{ color: "var(--theme-hero-text)" }}>서비스</p>
             <ul className="space-y-2 text-sm">
               {serviceLinks.map((link) => (
                 <li key={link}>
-                  <a href="#" className="hover:text-white transition-colors">{link}</a>
+                  <a href="#" className="transition-colors hover:opacity-100 opacity-70"
+                    style={{ color: "inherit" }}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "var(--theme-hero-text)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "inherit")}
+                  >{link}</a>
                 </li>
               ))}
             </ul>
           </div>
           <div>
-            <p className="mb-3 text-sm font-semibold text-white">정보</p>
+            <p className="mb-3 text-sm font-semibold" style={{ color: "var(--theme-hero-text)" }}>정보</p>
             <ul className="space-y-2 text-sm">
               {infoLinks.map((link) => (
                 <li key={link}>
-                  <a href="#" className="hover:text-white transition-colors">{link}</a>
+                  <a href="#" className="transition-colors hover:opacity-100 opacity-70"
+                    style={{ color: "inherit" }}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "var(--theme-hero-text)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "inherit")}
+                  >{link}</a>
                 </li>
               ))}
             </ul>
           </div>
           <div>
-            <p className="mb-3 text-sm font-semibold text-white">SNS</p>
+            <p className="mb-3 text-sm font-semibold" style={{ color: "var(--theme-hero-text)" }}>SNS</p>
             <ul className="space-y-2 text-sm">
               {socialLinks.map((s) => (
                 <li key={s.label}>
-                  <a href={s.href} className="flex items-center gap-2 hover:text-white transition-colors">
+                  <a href={s.href} className="flex items-center gap-2 transition-colors opacity-70 hover:opacity-100"
+                    style={{ color: "inherit" }}
+                  >
                     <span>{s.icon}</span>
                     <span>{s.label}</span>
                   </a>

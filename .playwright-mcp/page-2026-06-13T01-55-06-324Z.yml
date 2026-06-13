@@ -1,0 +1,308 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "🏕 NomadKR" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=e9]:
+            - button "도시 탐색" [ref=e10]
+            - button "생활 가이드" [ref=e11]
+            - button "커뮤니티" [ref=e12]
+        - generic [ref=e13]:
+          - generic [ref=e14]: KO
+          - button "로그인" [ref=e15]
+    - main [ref=e16]:
+      - generic [ref=e18]:
+        - heading "당신의 다음 베이스캠프를 찾아보세요" [level=1] [ref=e19]:
+          - text: 당신의 다음 베이스캠프를
+          - text: 찾아보세요
+        - paragraph [ref=e20]: 한국 20개 도시의 디지털 노마드 생활 정보를 한눈에
+        - generic [ref=e22]:
+          - img [ref=e23]
+          - textbox "도시명으로 검색하세요..." [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28] [cursor=pointer]: "# 서울"
+          - generic [ref=e29] [cursor=pointer]: "# 부산"
+          - generic [ref=e30] [cursor=pointer]: "# 제주"
+          - generic [ref=e31] [cursor=pointer]: "# 대구"
+          - generic [ref=e32] [cursor=pointer]: "# 전주"
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "도시 탐색" [level=2] [ref=e36]
+          - combobox [ref=e37]:
+            - generic: 추천순
+            - img [ref=e38]
+        - generic [ref=e40]:
+          - button "전체" [ref=e41]
+          - button "대도시" [ref=e42]
+          - button "중소도시" [ref=e43]
+          - button "해안도시" [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - img "서울" [ref=e48]
+            - generic [ref=e49]:
+              - heading "서울" [level=3] [ref=e50]
+              - generic [ref=e51]:
+                - generic [ref=e52]:
+                  - generic [ref=e53]: 💰
+                  - generic [ref=e54]: 월 130만원~
+                - generic [ref=e55]:
+                  - generic [ref=e56]: 🌐
+                  - generic [ref=e57]: 500 Mbps
+                - generic [ref=e58]:
+                  - generic [ref=e59]: 🏢
+                  - generic [ref=e60]: 코워킹 82개
+              - generic [ref=e62]: ★★★★☆4.2
+            - button "자세히 보기" [ref=e64]
+          - generic [ref=e65]:
+            - img "부산" [ref=e67]
+            - generic [ref=e68]:
+              - heading "부산" [level=3] [ref=e69]
+              - generic [ref=e70]:
+                - generic [ref=e71]:
+                  - generic [ref=e72]: 💰
+                  - generic [ref=e73]: 월 90만원~
+                - generic [ref=e74]:
+                  - generic [ref=e75]: 🌐
+                  - generic [ref=e76]: 400 Mbps
+                - generic [ref=e77]:
+                  - generic [ref=e78]: 🏢
+                  - generic [ref=e79]: 코워킹 34개
+              - generic [ref=e81]: ★★★★★4.6
+            - button "자세히 보기" [ref=e83]
+          - generic [ref=e84]:
+            - img "제주" [ref=e86]
+            - generic [ref=e87]:
+              - heading "제주" [level=3] [ref=e88]
+              - generic [ref=e89]:
+                - generic [ref=e90]:
+                  - generic [ref=e91]: 💰
+                  - generic [ref=e92]: 월 85만원~
+                - generic [ref=e93]:
+                  - generic [ref=e94]: 🌐
+                  - generic [ref=e95]: 300 Mbps
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 🏢
+                  - generic [ref=e98]: 코워킹 21개
+              - generic [ref=e100]: ★★★★☆4.4
+            - button "자세히 보기" [ref=e102]
+          - generic [ref=e103]:
+            - img "대구" [ref=e105]
+            - generic [ref=e106]:
+              - heading "대구" [level=3] [ref=e107]
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 💰
+                  - generic [ref=e111]: 월 75만원~
+                - generic [ref=e112]:
+                  - generic [ref=e113]: 🌐
+                  - generic [ref=e114]: 450 Mbps
+                - generic [ref=e115]:
+                  - generic [ref=e116]: 🏢
+                  - generic [ref=e117]: 코워킹 18개
+              - generic [ref=e119]: ★★★★☆3.9
+            - button "자세히 보기" [ref=e121]
+          - generic [ref=e122]:
+            - img "광주" [ref=e124]
+            - generic [ref=e125]:
+              - heading "광주" [level=3] [ref=e126]
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - generic [ref=e129]: 💰
+                  - generic [ref=e130]: 월 70만원~
+                - generic [ref=e131]:
+                  - generic [ref=e132]: 🌐
+                  - generic [ref=e133]: 380 Mbps
+                - generic [ref=e134]:
+                  - generic [ref=e135]: 🏢
+                  - generic [ref=e136]: 코워킹 14개
+              - generic [ref=e138]: ★★★★☆3.8
+            - button "자세히 보기" [ref=e140]
+          - generic [ref=e141]:
+            - img "전주" [ref=e143]
+            - generic [ref=e144]:
+              - heading "전주" [level=3] [ref=e145]
+              - generic [ref=e146]:
+                - generic [ref=e147]:
+                  - generic [ref=e148]: 💰
+                  - generic [ref=e149]: 월 65만원~
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 🌐
+                  - generic [ref=e152]: 300 Mbps
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 🏢
+                  - generic [ref=e155]: 코워킹 9개
+              - generic [ref=e157]: ★★★★☆4.0
+            - button "자세히 보기" [ref=e159]
+          - generic [ref=e160]:
+            - img "강릉" [ref=e162]
+            - generic [ref=e163]:
+              - heading "강릉" [level=3] [ref=e164]
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - generic [ref=e167]: 💰
+                  - generic [ref=e168]: 월 72만원~
+                - generic [ref=e169]:
+                  - generic [ref=e170]: 🌐
+                  - generic [ref=e171]: 280 Mbps
+                - generic [ref=e172]:
+                  - generic [ref=e173]: 🏢
+                  - generic [ref=e174]: 코워킹 7개
+              - generic [ref=e176]: ★★★★☆4.1
+            - button "자세히 보기" [ref=e178]
+          - generic [ref=e179]:
+            - img "인천" [ref=e181]
+            - generic [ref=e182]:
+              - heading "인천" [level=3] [ref=e183]
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]: 💰
+                  - generic [ref=e187]: 월 95만원~
+                - generic [ref=e188]:
+                  - generic [ref=e189]: 🌐
+                  - generic [ref=e190]: 480 Mbps
+                - generic [ref=e191]:
+                  - generic [ref=e192]: 🏢
+                  - generic [ref=e193]: 코워킹 28개
+              - generic [ref=e195]: ★★★★☆3.7
+            - button "자세히 보기" [ref=e197]
+        - button "더 많은 도시 보기" [ref=e199]
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - heading "노마드 생활에 필요한 모든 정보" [level=2] [ref=e203]
+          - paragraph [ref=e204]: 카테고리별로 원하는 정보를 빠르게 찾아보세요
+        - generic [ref=e205]:
+          - link "💰 생활비 도시별 월 예산 가이드" [ref=e206] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e207]: 💰
+            - generic [ref=e208]:
+              - paragraph [ref=e209]: 생활비
+              - paragraph [ref=e210]: 도시별 월 예산 가이드
+          - link "🌐 인터넷 속도 및 안정성 비교" [ref=e211] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e212]: 🌐
+            - generic [ref=e213]:
+              - paragraph [ref=e214]: 인터넷
+              - paragraph [ref=e215]: 속도 및 안정성 비교
+          - link "🏢 코워킹 스페이스 위치 안내" [ref=e216] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e217]: 🏢
+            - generic [ref=e218]:
+              - paragraph [ref=e219]: 코워킹
+              - paragraph [ref=e220]: 스페이스 위치 안내
+          - link "🚌 교통 대중교통 접근성" [ref=e221] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e222]: 🚌
+            - generic [ref=e223]:
+              - paragraph [ref=e224]: 교통
+              - paragraph [ref=e225]: 대중교통 접근성
+          - link "☀️ 날씨 계절별 기후 정보" [ref=e226] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e227]: ☀️
+            - generic [ref=e228]:
+              - paragraph [ref=e229]: 날씨
+              - paragraph [ref=e230]: 계절별 기후 정보
+          - link "📋 비자 체류 조건 안내" [ref=e231] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e232]: 📋
+            - generic [ref=e233]:
+              - paragraph [ref=e234]: 비자
+              - paragraph [ref=e235]: 체류 조건 안내
+      - generic [ref=e237]:
+        - heading "🔥 이달의 추천 도시" [level=2] [ref=e238]
+        - generic [ref=e240]:
+          - img "부산" [ref=e242]
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - paragraph [ref=e245]: 부산
+              - paragraph [ref=e246]: "\"바다를 옆에 두고, 빠른 인터넷으로 — 워케이션 최적지\""
+            - generic [ref=e247]:
+              - generic [ref=e248]: ⭐ 4.6점
+              - generic [ref=e249]: 💰 월 90만원~
+              - generic [ref=e250]: 🌐 400 Mbps
+              - generic [ref=e251]: 🏢 코워킹 34개
+            - button "부산 자세히 보기 →" [ref=e253]
+    - contentinfo [ref=e254]:
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - generic [ref=e257]:
+            - paragraph [ref=e258]: 🏕 NomadKR
+            - paragraph [ref=e259]: 한국에서 디지털 노마드로 살고 싶은 모든 분을 위한 도시별 생활 정보 플랫폼
+          - generic [ref=e260]:
+            - paragraph [ref=e261]: 서비스
+            - list [ref=e262]:
+              - listitem [ref=e263]:
+                - link "서비스 소개" [ref=e264] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e265]:
+                - link "도시 탐색" [ref=e266] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e267]:
+                - link "생활 가이드" [ref=e268] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e269]:
+                - link "정보 제보하기" [ref=e270] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e271]:
+            - paragraph [ref=e272]: 정보
+            - list [ref=e273]:
+              - listitem [ref=e274]:
+                - link "이용약관" [ref=e275] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e276]:
+                - link "개인정보처리방침" [ref=e277] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e278]:
+                - link "문의하기" [ref=e279] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e280]:
+            - paragraph [ref=e281]: SNS
+            - list [ref=e282]:
+              - listitem [ref=e283]:
+                - link "📸 Instagram" [ref=e284] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e285]: 📸
+                  - generic [ref=e286]: Instagram
+              - listitem [ref=e287]:
+                - link "𝕏 Twitter/X" [ref=e288] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e289]: 𝕏
+                  - generic [ref=e290]: Twitter/X
+              - listitem [ref=e291]:
+                - link "💬 오픈카카오" [ref=e292] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e293]: 💬
+                  - generic [ref=e294]: 오픈카카오
+        - generic [ref=e295]:
+          - paragraph [ref=e296]: "정보 업데이트: 매월 1회 / 마지막 업데이트: 2026년 6월"
+          - paragraph [ref=e297]: © 2026 NomadKR. All rights reserved.
+  - generic [ref=e298]:
+    - generic [ref=e381]:
+      - paragraph [ref=e382]: UI 테마 선택
+      - button "🔵 기본 기존 NomadKR 스타일" [ref=e383]:
+        - generic [ref=e384]: 🔵
+        - generic [ref=e385]:
+          - paragraph [ref=e386]: 기본
+          - paragraph [ref=e387]: 기존 NomadKR 스타일
+      - button "⬜ 미니멀 깔끔하고 단순한 화이트 테마" [ref=e388]:
+        - generic [ref=e389]: ⬜
+        - generic [ref=e390]:
+          - paragraph [ref=e391]: 미니멀
+          - paragraph [ref=e392]: 깔끔하고 단순한 화이트 테마
+      - button "🟢 네온 사이버 미래적인 다크 네온 테마" [ref=e393]:
+        - generic [ref=e394]: 🟢
+        - generic [ref=e395]:
+          - paragraph [ref=e396]: 네온 사이버
+          - paragraph [ref=e397]: 미래적인 다크 네온 테마
+      - button "🌿 네이처 자연 친화적 어스 테마" [ref=e398]:
+        - generic [ref=e399]: 🌿
+        - generic [ref=e400]:
+          - paragraph [ref=e401]: 네이처
+          - paragraph [ref=e402]: 자연 친화적 어스 테마
+      - button "✨ 럭셔리 프리미엄 다크 골드 테마" [ref=e403]:
+        - generic [ref=e404]: ✨
+        - generic [ref=e405]:
+          - paragraph [ref=e406]: 럭셔리
+          - paragraph [ref=e407]: 프리미엄 다크 골드 테마
+    - button "🎨" [active] [ref=e299]

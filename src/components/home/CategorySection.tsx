@@ -2,7 +2,7 @@ import { categories } from "@/lib/data/cities";
 
 export function CategorySection() {
   return (
-    <section className="bg-slate-50 px-4 py-16 sm:px-6 lg:px-8">
+    <section className="px-4 py-16 sm:px-6 lg:px-8" style={{ backgroundColor: "var(--theme-section-muted)" }}>
       <div className="mx-auto max-w-7xl">
         <div className="mb-10 text-center">
           <h2 className="text-2xl font-bold text-slate-900">노마드 생활에 필요한 모든 정보</h2>

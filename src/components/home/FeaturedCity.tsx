@@ -6,10 +6,13 @@ export function FeaturedCity() {
   const city = featuredCity;
 
   return (
-    <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+    <section className="px-4 py-16 sm:px-6 lg:px-8" style={{ backgroundColor: "var(--theme-section-bg)" }}>
       <div className="mx-auto max-w-7xl">
         <h2 className="mb-6 text-2xl font-bold text-slate-900">🔥 이달의 추천 도시</h2>
-        <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-sm">
+        <div
+          className="overflow-hidden rounded-2xl shadow-sm"
+          style={{ border: "1px solid var(--theme-card-border)" }}
+        >
           <div className="flex flex-col md:flex-row">
             <div className="md:w-2/5">
               <img

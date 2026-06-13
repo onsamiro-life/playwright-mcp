@@ -4,5 +4,10 @@
       "command": "npx",
       "args": ["@playwright/mcp@latest"]
     }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git worktree *)"
+    ]
   }
 }

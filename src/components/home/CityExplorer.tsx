@@ -21,7 +21,7 @@ export function CityExplorer() {
     : cities.filter((c) => c.categories.includes(activeFilter));
 
   return (
-    <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
+    <section className="px-4 py-16 sm:px-6 lg:px-8" style={{ backgroundColor: "var(--theme-section-bg)" }}>
       <div className="mx-auto max-w-7xl">
         <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-2xl font-bold text-slate-900">도시 탐색</h2>
